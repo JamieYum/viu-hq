@@ -1,0 +1,483 @@
+.navigation {
+  position: relative;
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 73px;
+  background-color: white;
+  box-shadow: 0 1px 4px 0 #ABABAB;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 110;
+  transition: top 0.5s ease-in-out;
+}
+
+.nav-up {
+  top: -100px;
+}
+.navigation a{line-height: 1;}
+
+/*.navigation.is-hidden {
+    opacity: 0;
+    -webkit-transform: translate(0, -60px);
+    -webkit-transition: -webkit-transform .2s, background .3s, color .3s, opacity 0 .3s; }
+  .navigation.is-visible {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+    -webkit-transition: -webkit-transform .2s, background .3s, color .3s; }*/
+.navigation .now-logo {
+  margin-left: 18px;
+  height: 51px;
+  width: auto;
+  margin-right: 20px;
+  line-height: 1;
+}
+
+
+.navigation .nav-left{
+  flex: 1;          /* shorthand for: flex-grow: 1, flex-shrink: 1, flex-basis: 0 */
+  display: none;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navigation .nav-center{
+  position: relative;
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  flex-direction: row;
+  align-items: center;
+}
+
+.navigation .nav-right {
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  flex-direction: row;
+  align-items: center;
+}
+
+.navigation .nav-item-list {
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  flex-direction: row;
+  align-items: center;
+}
+
+.navigation .nav-item {
+  position: relative;
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 161px;
+  height: 73px;
+  color: #0B0B0B;
+  font-family: Montserrat;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+  text-decoration: none;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  border-bottom: 4px solid #fff;
+  padding-top: 4px;
+}
+
+.navigation .nav-item:hover{
+  font-weight: 700;
+}
+
+.navigation .nav-item:active,.navigation .nav-item.active {
+  color: #CF6B0D;
+  font-weight: 700;
+  border-bottom: 4px solid #CF6B0D;
+}
+
+.navigation .nav-button {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.navigation .search-button i {
+  position: relative;
+  top: 2px;
+}
+
+.navigation .nav-button img {
+  margin-right: 20px;
+}
+
+.navigation .nav-button i {
+  font-size: 20px;
+  color: #0b0b0b;
+  position: relative;
+  top: 2px;
+}
+
+.navigation .buttons {
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex !important;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #0b0b0b;
+  font-family: Montserrat;
+  line-height: 2.2rem;
+  width: 133px;
+  height: 73px;
+  text-decoration: none;
+}
+
+.navigation .buttons.tc{
+  font-family: 'Noto Sans TC', sans-serif !important;
+}
+
+.navigation .buttons.en{
+  font-family: 'Montserrat' !important;
+}
+
+.navigation .lang-button:hover{
+  font-weight: 700;
+}
+
+.navigation .search-button {
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.navigation .watch-button {
+  position: relative;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /*width: 175px;*/
+  height: 73px;
+  background-color: #f7f7f7;
+  font-family: Montserrat;
+  color: #0b0b0b;
+  font-weight: 500;
+  line-height: 2.2rem;
+  text-decoration: none;
+}
+
+.navigation .watch-button:hover {
+  background-color: #C9C9C9;
+}
+
+.navigation .watch-button:active, .navigation .watch-button.active {
+  background-color: #B1AFAF;
+}
+
+.watch-dropdown{
+  display: none;
+  width: 152px;
+  position: absolute;
+  top: 73px;
+  padding:3px 0 0 0;
+}
+
+.watch-dropdown ul{
+  background-color: white;
+  box-shadow: 0 1px 4px 0 #ABABAB;
+  border-radius: 3px;
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+
+.watch-dropdown li{
+  list-style: none;
+  margin-left: 0;
+  border-radius: 3px;
+}
+.watch-dropdown li a{
+  color: #0b0b0b;
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 500;
+
+}
+.watch-dropdown li:hover{
+  background-color: #F7F7F7;
+}
+
+.watchnav{
+  position: relative;
+}
+.watchnav:hover + .watch-dropdown{
+  display: block;
+}
+
+.watch-dropdown:hover{
+  display: block;
+}
+
+.navigation .login-button {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #EF9528;
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-family: Montserrat;
+}
+
+.navigation .login-button:hover {
+  background-color: #F37D16;
+  color: white;
+}
+
+.navigation .login-button:active, .navigation .login-button.active {
+  background-color: #DB6804;
+  color: white;
+}
+
+.navigation .login-button.disabled, .navigation .login-button.disabled:hover {
+  background-color: #FDC794;
+  cursor: not-allowed;
+}
+
+.navigation .profile-button {
+  position: relative;
+  display: -webkit-box;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  /* NEW - Chrome */
+  display: flex;
+  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  flex-direction: row;
+  align-items: center;
+  font-family: Montserrat;
+  width: 250px;
+  padding: 25px 20px;
+  background-color: #EF9528;
+  color: white;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.navigation .profile-button i {
+  font-size: 29px;
+  margin-right: 17px;
+  position: relative;
+  top: 2px;
+}
+
+.navigation .profile-button img {
+  margin-right: 20px;
+}
+
+.navigation .profile-button .view-account{
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* search */
+.desktop-searchbar{
+  position: absolute;
+  right: 385px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  height: 73px;
+  background-color: #fff;
+  width: 0;
+  opacity: 0;
+  -webkit-transition:all .7s cubic-bezier(1,-.15,.32,1.14);
+  -moz-transition:all .7s cubic-bezier(1,-.15,.32,1.14);
+  -o-transition:all .7s cubic-bezier(1,-.15,.32,1.14);
+  -ms-transition:all .7s cubic-bezier(1,-.15,.32,1.14);
+  transition:all .7s cubic-bezier(1,-.15,.32,1.14);
+  pointer-events:none;
+}
+
+.desktop-searchbar.active{
+  pointer-events:auto;
+  width: calc(100% - 512px);
+  opacity: 1;
+}
+
+.search-bar-container{
+  position: relative;
+  width: 100%;
+  z-index: 999;
+}
+
+.search-button.disabled{
+  pointer-events: none;
+}
+
+.desktop-searchbar input{
+  width: 100%;
+  height: 53px;
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid #d8d8d8;
+  padding: 15px 15px 15px 70px;
+  font-family: 'Barlow';
+}
+
+.search-bar-container i.searchicon{
+  position: absolute;
+  top: 16px;
+  left: 25px;
+  font-size: 20px;
+}
+
+.search-bar-container button.close-desktopsearch {
+  position: absolute;
+  right: 25px;
+  top: 20px;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+.search-bar-container button.close-desktopsearch i{font-size: 16px;}
+
+.search-button.desktop{display: flex;}
+.search-button.mobile{display: none;}
+
+/* reponsive */
+@media screen and (max-width: 1199px) {
+
+  .watch-dropdown{top: 55px;}
+  .navigation .profile-button {width: 230px;}
+
+  .desktop-searchbar{
+    right: 320px;
+    height: 55px;
+  }
+
+  .desktop-searchbar.active{
+    pointer-events:auto;
+    width: calc(100% - 415px);
+    opacity: 1;
+  }
+
+  .desktop-searchbar input{height: 45px;}
+  .search-bar-container i.searchicon{top: 12px;}
+  .search-bar-container button.close-desktopsearch {top: 16px;}
+
+}
+@media screen and (max-width: 991px) {
+  .search-button.desktop{display: none !important;}
+  .search-button.mobile{display: flex !important;}
+}

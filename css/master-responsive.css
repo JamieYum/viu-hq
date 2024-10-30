@@ -1,0 +1,58 @@
+/* responsive */
+@media screen and (max-width: 1199px) {
+
+}
+
+@media screen and (max-width: 991px) {
+  .text-70 {font-size: 6.0rem;line-height: 1.5}
+  .text-60 {font-size: 5.0rem;}
+}
+
+@media screen and (max-width: 768px) {
+  /* content title */
+  .heading_1 {font-size: 3.0rem;}
+  .heading_2 {font-size: 2.5rem;}
+  .heading_3 {font-size: 2.2rem;}
+  .subtitle_1 {font-size: 2.0rem;}
+  .subtitle_2 {font-size: 1.8rem;}
+  .subtitle_3{font-size: 1.6rem;}
+  .subtitle_4{font-size: 1.4rem;}
+
+  /* All Font */
+  .text-12 {font-size: 1.2rem;line-height: 1.8rem}
+  .text-14 {font-size: 1.4rem;line-height: 2rem}
+  .text-16 {font-size: 1.4rem;line-height: 2rem}
+  .text-18 {font-size: 1.6rem;line-height: 2.2rem}
+  .text-20 {font-size: 1.8rem;line-height: 2.4rem}
+  .text-24 {font-size: 2.1rem;line-height: 2.7rem}
+  .text-28 {font-size: 2.2rem;line-height: 2.8rem}
+  .text-30 {font-size: 2.4rem;line-height: 3rem}
+  .text-36 {font-size: 2.5rem;line-height: 3.1rem}
+  .text-40 {font-size: 3rem;line-height: 3.8rem}
+  .text-48{font-size: 3.6rem;line-height: 4rem;}
+  .text-60 {font-size: 4.2rem;}
+  .text-70 {font-size: 4.8rem;line-height: 1.5}
+
+  /* buttons */
+  .normal-button,
+  .secondary-button,
+  .selection-button,
+  .square-button,
+  .watchvideo-button
+  {font-size: 1.6rem;}
+
+
+
+  /* margin */
+  .buffer_xxl{margin-bottom: 40px;}
+  .buffer_xl{margin-bottom: 32px;}
+  .buffer_lg{margin-bottom: 25px;}
+  .buffer_md{margin-bottom: 15px;}
+  .buffer_sm{margin-bottom: 12px;}
+  .buffer_xs{margin-bottom: 10px;}
+}
+
+@media screen and (max-width: 768px) {
+  .text-60 {font-size: 3.0rem;}
+  .text-70 {font-size: 3.8rem;line-height: 1.5}
+}

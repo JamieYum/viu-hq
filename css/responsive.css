@@ -1,0 +1,975 @@
+@media screen and (max-width: 1300px) {
+  .autoplay_video_wrapper.fullscreen {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+
+  /* from asia */
+  .from_asia .text_wrap h3 {font-size: 20px;}
+  .from_asia .subtitle{font-size: 40px;}
+  .from_asia .text_wrap p {font-size: 20px;}
+  .from_asia p.note{font-size: 14px;}
+  .from_asia span.superscript{top: 14px;}
+
+  .press_container .item {
+    padding: 0 30px;
+    width: 33.33%;
+  }
+
+  .note_wrapper {
+    margin-bottom: -40px;
+  }
+
+  /* program section */
+  .program_content.right {
+    right: 4%;
+  }
+
+  .program_content.left {
+    left: 4%;
+  }
+
+  .program_content img.titleart {
+    max-width: 280px;
+    max-height: 100px;
+    margin-bottom: 30px;
+  }
+
+  .program_content p {
+    margin-bottom: 30px;
+  }
+
+  /* movie */
+  .movie-section .slick_bottom .play_btn_wrap {
+    padding: 30px 7px 10px 7px;
+  }
+
+  /* contacts */
+  .contacts_wrapper .contacts img.viu, .contacts_wrapper .contacts img.viutv {
+    height: 40px;
+  }
+
+  .contacts_wrapper .contacts img.nowtv, .contacts_wrapper .contacts img.nowe {
+    height: 50px;
+  }
+
+  .contacts_wrapper .contacts img.pccwmedia {
+    height: 18px;
+  }
+
+  .normal-btn {
+    min-width: auto;
+  }
+
+  .contact_ppl {
+    justify-content: space-between;
+  }
+
+  .hidden-1199 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  .header .left-item img,
+  .header .right-item img {
+    height: 35px;
+  }
+
+  .header .right-item .nowtv img, .header .right-item .nowe img {
+    height: 30px;
+  }
+
+  .header .right-item .pccwmedia img {
+    height: 15px;
+  }
+
+  /* hero banner */
+  .autoplay_video_wrapper .hello h2 {
+    font-size: 40px;
+  }
+
+  /* from asia */
+  .from_asia .text_wrap h3 {font-size: 16px;}
+  .from_asia .text_wrap h2 {font-size: 48px;}
+  .from_asia img.logo{
+    height: 96px;
+    margin: 8px 0 0 0;
+  }
+  .from_asia .subtitle{font-size: 36px;}
+  .from_asia .text_wrap p {font-size: 18px;}
+  .from_asia p.note{font-size: 14px;}
+
+  .from_asia.short p.desc{font-size: 24px;}
+  .from_asia.short p.desc span.sm{font-size: 22px;}
+
+  .from_asia span.superscript{top: 12px;}
+
+  .press_container {
+    flex-direction: column;
+    margin-top: 0;
+    width: 100%;
+    padding: 0 4%;
+  }
+
+  .press_container .item {
+    margin: 0 auto;
+    width: 450px;
+    border: 0;
+    padding: 30px 0;
+    ;
+    border-bottom: 1px solid #fff;
+  }
+
+  .press_container .item h3 {
+    min-height: auto;
+  }
+
+  .press_container .item:last-child {
+    border: 0
+  }
+
+  .press_container {
+    text-align: center;
+  }
+
+  .contact_ppl .ppl_item {
+    width: 50%;
+    margin-bottom: 50px;
+    max-width: none;
+    ;
+  }
+
+  .hidden-991 {
+    display: none
+  }
+
+  .contact_ppl .normal-btn {
+    margin-top: 20px;
+  }
+
+  .contact_ppl {
+    justify-content: flex-start;
+  }
+
+  .show991 {
+    display: block;
+  }
+
+  .contact_ppl .ppl_item.mob_full {
+    width: 100%
+  }
+
+  .contact_ppl .ppl_item img {
+    max-width: 160px;
+  }
+
+  .contact_ppl .ppl_item img {
+    margin-bottom: 20px;
+  }
+
+  /* program section */
+  .program_content {
+    max-width: 380px;
+  }
+
+  .program_content img.titleart {
+    max-width: 200px;
+    max-height: 70px;
+    margin-bottom: 20px;
+  }
+
+  .program_content p {
+    margin-bottom: 20px;
+  }
+
+  /* contacts */
+  .contacts_wrapper {
+    justify-content: flex-start;
+  }
+
+  .contacts_wrapper .contacts .logo {
+    min-height: 80px;
+  }
+
+  .contacts_wrapper .contacts img, .contacts_wrapper .contacts p {
+    margin-bottom: 30px;
+  }
+
+  .contacts_wrapper .contacts {
+    width: 25%;
+  }
+
+  .contacts_wrapper .contacts button {
+    margin-bottom: 20px;
+  }
+
+  .contacts_wrapper .contacts {
+    width: 50%;
+  }
+
+  .contacts_wrapper .heading {
+    margin-bottom: 70px;
+    margin-top: 20px;
+  }
+
+  .contacts_wrapper .viu_logo {
+    border-top: 8px solid #E31C79;
+    padding: 15px 0;
+    margin-bottom: 40px;
+  }
+
+  .contacts_wrapper .viu_logo img {
+    width: auto;
+    height: 45px;
+  }
+
+  .contact_ppl .region {
+    min-height: auto;
+  }
+
+  /* movie section */
+  .movie-section .smallposter {
+    padding: 0 8%;
+  }
+
+  .movie-section .slideshow .play_btn_wrap {
+    padding: 15px 15px 15px 30px;
+  }
+
+  .footer p {
+    text-align: center;
+  }
+
+  /* program-details */
+  .details_wrapper {
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+    margin: 50px auto;
+  }
+
+  .details_wrapper .poster img.desktop {
+    display: none;
+  }
+
+  .details_wrapper .poster img.mobile {
+    display: block;
+  }
+
+  .details_wrapper .content {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .details_wrapper .poster img {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .show_details_video iframe {
+    width: 700px;
+    height: 394px;
+  }
+
+  .modal.video .iframe-video {
+    max-width: 700px;
+  }
+
+  .video-content .devices {
+    margin-bottom: -97px
+  }
+
+  .video-content .devices img {
+    max-width: 700px;
+  }
+
+  .countries .countries_flag {
+    max-width: 700px;
+  }
+
+  .countries {
+    padding-top: 60px;
+  }
+}
+
+/* Tablet stylings ------------------------------- */
+@media screen and (max-width: 767px) {
+  .notification {
+    justify-content: flex-start;
+  }
+
+  .hidden_767 {
+    display: none;
+  }
+
+  .header, .header-wrap {
+    min-height: 50px;
+  }
+
+  .header .right-item div {
+    min-width: auto;
+    padding: 0 18px;
+  }
+
+  .burger, .burger.clicked {
+    top: 10px;
+  }
+
+  .header .left-item img,
+  .header .right-item img {
+    height: 30px;
+  }
+
+  .header .right-item .nowtv img, .header .right-item .nowe img {
+    height: 25px;
+  }
+
+  .header .right-item .pccwmedia img {
+    height: 12px;
+  }
+
+  .normal-btn {
+    font-size: 16px;
+    padding: 12px 18px;
+  }
+
+  /* hero banner */
+  .autoplay_video_wrapper {
+    position: relative;
+    width: 100%;
+    height: 45vh;
+  }
+
+  .autoplay_video_wrapper .hello h2 {
+    font-size: 30px;
+  }
+
+  .autoplay_video_wrapper .scroll_down {
+    display: none;
+  }
+
+  /* from asia */
+  .from_asia:before,.from_asia:after,.press_release:after,.scream_section:after{height: 20px;}
+
+  .from_asia{min-height: auto;padding: 80px 0 0 0;}
+  .from_asia.noborder{padding: 50px 0;}
+  .from_asia .subtitle{font-size: 28px;}
+  .from_asia .text_wrap p {font-size: 18px;margin-top: 40px;}
+  .from_asia p.note{font-size: 12px;}
+
+  .from_asia span.superscript{top: 8px;}
+  .note_wrapper{margin-bottom: 0px;margin-top: 50px;}
+
+  /* .from_asia br{display: none;} */
+
+  .from_asia .lets_talk{margin:20px 0 40px 0;}
+
+  .from_asia span.superscript{font-size: 16px;}
+  .from_asia p span.superscript{
+    top: -4px;
+  }
+
+  .from_asia.short p.desc{margin:20px 0;font-size: 20px;}
+  .from_asia.short p.desc span.sm{font-size: 20px;}
+
+  .note_wrapper {
+    margin-bottom: 0px;
+    margin-top: 50px;
+  }
+
+
+
+  .contact_ppl .ppl_item {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .contact_ppl .ppl_item img {
+    max-width: 120px;
+  }
+
+  /* program */
+  .program_section img.desktop {
+    display: none;
+    ;
+  }
+
+  .program_section img.mobile {
+    display: block;
+  }
+
+  .program_content img.titleart {
+    max-width: 165px;
+    max-height: 55px;
+  }
+
+  .program_content {
+    background-color: #000;
+    padding: 4%;
+    position: relative;
+    top: 0%;
+    left: 0 !important;
+    right: 0 !important;
+    max-width: 100%;
+    right: 0;
+    margin-top: -100px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    transform: translate(0, 0%);
+  }
+
+  .program_content {
+    transform: translate(0);
+  }
+
+  .program_content[data-aos^=fade][data-aos^=fade].aos-animate {
+    transform: translate(0, 0%);
+  }
+
+  .program_section.thebridge {
+    background-color: rgb(113, 60, 126);
+  }
+
+  .program_section.thebridge .program_content {
+    background: rgb(75, 46, 48);
+    background: linear-gradient(180deg, rgba(75, 46, 48, 0) 0%, rgba(48, 31, 33, 1) 25%, rgba(11, 11, 13, 1) 100%);
+  }
+
+  .program_section.bubble {
+    background-color: rgb(15, 4, 18);
+  }
+
+  .program_section.bubble .program_content {
+    background: rgb(42, 107, 129);
+    background: linear-gradient(180deg, rgba(39, 12, 45, 0) 0%, rgba(19, 6, 23, 1) 25%, rgba(15, 4, 18, 1) 100%);
+  }
+
+  .program_section.PPL {
+    background-color: rgb(43, 78, 84);
+  }
+
+  .program_section.PPL .program_content {
+    background: rgb(76, 130, 164);
+    background: linear-gradient(180deg, rgba(146, 205, 222, 0) 0%, rgba(103, 162, 193, 1) 25%, rgba(76, 130, 164, 1) 100%);
+  }
+
+  /* movie section */
+  .movie-section h2 {
+    margin: 0 0 5px 0;
+  }
+
+  .movie-section h3 {
+    margin-bottom: 30px;
+  }
+
+  .movie-section {
+    padding: 40px 0;
+  }
+
+  .movie-section .smallposter {
+    padding: 0 70px;
+  }
+
+  .movie-section .slideshow .play_btn_wrap {
+    padding: 8px 8px 8px 24px;
+  }
+
+  .movie-section .slideshow .play_btn_wrap img {
+    width: 16px;
+    height: 16px;
+    top: -1px;
+  }
+
+  .movie-section .slideshow .play_btn_wrap button {
+    font-size: 1.4rem;
+  }
+
+  .movie-section .slick_bottom .play_btn_wrap {
+    padding: 40px 5px 5px 5px;
+  }
+
+  .movie-section .slick_bottom .play_btn_wrap img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .movie-section .slick_bottom .play_btn_wrap button, .movie-section .slick_bottom .play_btn_wrap a {
+    font-size: 12px;
+  }
+
+  /* mediabar */
+  .pccwmedia_bar {
+    height: 60px;
+  }
+
+  /* contacts */
+  .contacts_wrapper {
+    justify-content: flex-start;
+  }
+
+  .contacts_wrapper {
+    padding: 0;
+  }
+
+  .contacts_wrapper .contacts .logo {
+    min-height: 70px;
+  }
+
+  .contacts_wrapper .contacts img, .contacts_wrapper .contacts p {
+    margin-bottom: 20px;
+  }
+
+  .contacts_wrapper .contacts p {
+    height: auto !important
+  }
+
+  .contacts_wrapper .heading {
+    margin-bottom: 40px;
+  }
+
+  /* form */
+  .form_wrapper h2 {
+    font-size: 36px;
+  }
+
+  .form_wrapper h3 {
+    font-size: 16px;
+  }
+
+  .form_wrapper {
+    margin: 40px auto;
+  }
+
+  .form_wrapper .submit {
+    margin-top: 40px;
+  }
+
+  .inrow2 {
+    margin: 0 -10px;
+  }
+
+  .form_wrapper .col-50 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  /* overlay */
+  .formoverlay .modal-dialog {
+    margin: 30px auto;
+  }
+
+  .show_details_video iframe {
+    width: 100%;
+    height: 400px;
+    padding: 0 20px;
+  }
+
+  .modal.video .iframe-video {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .video-content h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .video-content .video-logo img {
+    width: 290px;
+  }
+
+  .countries .subtitle {
+    margin-bottom: 20px
+  }
+
+  .countries .countries_flag .flag {
+    width: 25%;
+    padding: 5px
+  }
+
+  .countries .countries_flag .flag img {
+    max-width: 50px;
+  }
+
+  .countries .countries_flag .name {
+    margin-bottom: 0;
+  }
+
+  .countries .countries_flag {
+    margin: 20px 0 0 0
+  }
+
+  .countries .soon {
+    margin-top: 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .viu_HQ h2 {
+    font-size: 40px;
+  }
+
+  .viu_HQ .HQ_Links a {
+    display: inline-block;
+    margin: 12px 0;
+    color: #fff;
+    font-size: 37px;
+    text-transform: uppercase;
+  }
+
+  .viu_HQ .HQ_Links a i {
+    position: relative;
+    top: 7px;
+    font-size: 40px;
+    margin-left: -7px;
+  }
+
+  .footer .links {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .footer .links a {
+    margin-bottom: 15px;
+  }
+
+  .copyright-info {
+    align-items: flex-end;
+  }
+
+  .right-col.teamlogo {
+    position: relative;
+    bottom: 2px;
+  }
+
+  .right-col.teamlogo img {
+    width: auto;
+    height: 18px;
+  }
+
+  /* investors */
+  .overview-logo-wrap {
+    margin: 20px 0;
+  }
+
+  .border-title {
+    margin-bottom: 20px;
+  }
+
+  .management-item {
+    margin-bottom: 30px;
+  }
+
+  /* brands */
+  .brands-wrapper {
+    background: #fff;
+    padding: 0 !important;
+  }
+
+  .brands-wrapper .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .brands-wrapper .container .col-md-6 {
+    padding: 0;
+  }
+
+  .brands-wrapper .container .row {
+    margin: 0;
+    width: 100%;
+  }
+
+  .col-ads {
+    background-color: #ffbf00
+  }
+
+  .content-wrapper {
+    max-width: 540px;
+    width: 100%;
+    padding: 50px 22px;
+    margin: 0 auto;
+  }
+
+  /* contacts */
+  .support-options .row:last-child .options {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .support-offices {
+    margin-top: 40px;
+  }
+
+  .support-offices .office {
+    margin: 20px 0;
+  }
+
+  /* team content */
+  .viu-original-section img {
+    width: auto;
+    height: 30px;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Mobile stylings ------------------------------- */
+@media screen and (max-width: 575px) {
+  .mobile-show{display: inline-block;}
+  
+  .burger span, .burger span::before, .burger span::after {
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+
+  .notification {
+    justify-content: flex-start;
+    padding: 15px 35px 15px 15px;
+  }
+
+  .notification p {
+    text-align: left;
+  }
+
+  .notification a {
+    margin-left: 0;
+  }
+
+  .show575 {
+    display: block;
+  }
+
+  .header .right-item img {
+    height: 15px;
+  }
+
+  .header .right-item .nowtv img, .header .right-item .nowe img {
+    height: 18px;
+  }
+
+  .header .right-item .pccwmedia img {
+    height: 8px;
+  }
+
+  /* hero video */
+  .autoplay_video_wrapper .desktop {
+    display: none;
+  }
+
+  .autoplay_video_wrapper .mobile {
+    display: block;
+    height: 100%;
+  }
+
+  .tralier_btn{bottom: 5px;left: 5%;}
+  .tralier_btn img{width: 24px;height: 24px;}
+
+  /* contacts */
+  .contacts_wrapper .contacts {
+    width: 50%;
+    margin: 18px 0;
+  }
+
+  .contacts_wrapper .contacts button {
+    margin-bottom: 15px;
+  }
+
+  .contacts_wrapper .contacts img {
+    margin-bottom: 15px;
+  }
+
+  .contacts_wrapper .contacts .logo {
+    min-height: auto;
+  }
+
+  .contacts_wrapper .contacts img.viu, .contacts_wrapper .contacts img.viutv {
+    height: 30px;
+  }
+
+  .contacts_wrapper .contacts img.nowtv, .contacts_wrapper .contacts img.nowe {
+    height: 40px;
+  }
+
+  .contacts_wrapper .contacts img.pccwmedia {
+    height: 15px;
+  }
+
+  .contacts_wrapper .viu_logo {
+    padding: 12px 0;
+  }
+
+  .contacts_wrapper .viu_logo img {
+    height: 35px;
+  }
+
+  .pccwmedia_bar {
+    height: 50px;
+  }
+
+  .pccwmedia_bar img {
+    height: 14px;
+  }
+
+  .contacts_wrapper .heading {
+    margin-bottom: 30px;
+  }
+
+  /* form */
+  .inrow2 {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .form_wrapper .col-50 {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  textarea {
+    min-height: 180px;
+  }
+
+  .from_asia{padding-top: 0;}
+  .from_asia .text_wrap h2{margin-bottom: 10px;}
+  .from_asia .subtitle{font-size: 24px;}
+  .from_asia .text_wrap p{font-size: 16px;margin-top: 20px;margin-bottom: 20px;}
+  .from_asia p.note{font-size: 10px;}
+  .from_asia.short p.desc{font-size: 18px;margin:10px 0 20px 0;}
+  .from_asia.short p.desc span.sm{font-size: 17px;}
+
+  .from_asia span.superscript{top: 6px;}
+
+  .from_asia .text_wrap h2{font-size: 36px;}
+  .from_asia img.logo{height: 72px;}
+
+  .from_asia{
+    background-image: url('../img/content_bg.jpg');
+  }
+
+  .from_asia .mobile_image{display: block;}
+  .from_asia .mobile_image img{width: 100%;height: auto;}
+  .from_asia.short .note_wrapper {margin-top: 20px;}
+
+  .from_asia p.forasterix{font-size: 11px; margin: 0 0 20px 0;}
+
+  .devices_img {bottom: 2px;}
+
+  .press_release {
+    margin-top: 30px;
+  }
+
+  .press_container .item {
+    width: 100%;
+  }
+
+  .note_wrapper {
+    margin-top: 30px;
+    padding: 0 4%;
+    line-height: 1.3;
+  }
+
+  /* movie section */
+  .movie-section h2 {
+    font-size: 28px;
+  }
+
+  .movie-section .slideshow {
+    margin-bottom: 30px;
+  }
+
+  .movie-section .smallposter {
+    padding: 0 20px;
+  }
+
+  .movie-section .slideshow .slick-track {
+    padding-left: 15%
+  }
+
+  .movie-section .smallposter .slick-next {
+    right: 0;
+  }
+
+  .movie-section .smallposter .slick-prev {
+    left: 0;
+  }
+
+  .movie-section .slideshow .slick-prev, .movie-section .slideshow .slick-next {
+    width: 10%;
+  }
+
+  .show_details_video iframe {
+    height: 320px;
+  }
+
+  .video-content .video-logo img {
+    max-width: 225px
+  }
+
+  .video-content h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .video-content .devices {
+    margin-bottom: -90px;
+  }
+
+  .countries {
+    padding-top: 50px;
+  }
+
+  .countries .countries_flag .name {
+    font-size: 13px;
+  }
+
+  .col-xs-6 {
+    width: 50%;
+  }
+
+  .footer .footer-logo {
+    padding: 25px 0 15px 0
+  }
+
+  .footer-column {
+    margin: 15px 0;
+  }
+
+  .footer .top-section {
+    padding-bottom: 25px;
+  }
+
+  .section, .sub-content {
+    padding: 40px 0;
+  }
+
+  .hq-winning-hearts img.device-img {
+    margin-bottom: -23px;
+  }
+
+  .banner-devices img {
+    top: 21px;
+  }
+}
+
+/* Small Mobile stylings ------------------------------- */
+@media screen and (max-width: 375px) {
+  .movie-section .smallposter .slick-prev, .movie-section .smallposter .slick-next {
+    top: calc(50% - 50px);
+  }
+}
+
+@media screen and (max-width: 374px) {}

@@ -1,0 +1,335 @@
+.clear {
+  clear: both;
+}
+
+button:focus, select, select:focus, input:focus {
+  outline: none;
+}
+
+.enquiry-cs .container {
+  padding: 0 22px;
+}
+
+.enquiry-cs {
+  padding-top: 73px;
+}
+
+.enquiry-cs .step-flow {
+  background-color: #f7f7f7;
+  padding: 10px 0;
+}
+
+.enquiryheading {
+  padding: 60px 0 40px 0;
+  text-align: center;
+  font-weight: 500;
+}
+
+.enquiryheading h2{margin:0;}
+
+.enquiryheading .subtitle{margin-bottom: 5px;}
+
+.enquiry-cs .topcontent {
+  text-align: center;
+  font-family: Barlow;
+}
+
+html:lang(tc) .enquiry-cs .topcontent {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.enquiry-cs .topcontent  p{margin-top: 0;}
+
+.enquiry-cs .topcontent.noborder {
+  border: 0;
+}
+
+.parg700 {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.cs-options {
+  width: 100%;
+  margin: 60px auto 70px auto;
+}
+
+.cs-options .option {
+  display: inline-block;
+  margin: 0 60px;
+}
+
+.belowcontent {
+  text-align: center;
+  margin: 70px 0;
+}
+
+.belowcontent .cs-form {
+  width: 100%;
+  max-width: 530px;
+  margin: 60px auto;
+}
+
+.belowcontent .cs-form input, .belowcontent .cs-form .custom-select {
+  -webkit-appearance: none;
+}
+
+.group label {
+  top: 16px;
+  font-family: Barlow;
+}
+
+.belowcontent .cs-form .submit-form button {
+  display: inline-block;
+}
+
+.belowcontent.chatform p.heading {
+  color: #4A4A4A;
+  font-family: Barlow;
+}
+
+.belowcontent.chatform p {
+  font-family: Barlow;
+  color: #9B9B9B;
+}
+
+.belowcontent.formsubmited {
+  display: none;
+  margin: 150px auto;
+}
+.belowcontent.formsubmited p{
+  font-family: Barlow;
+}
+
+.belowcontent .cs-form select {
+  outline: none;
+}
+
+.belowcontent .cs-form select:hover {
+  color: #333;
+  border: 1px solid #CF6B0D;
+  background-color: #fff;
+}
+
+.belowcontent .cs-form select:hover~label {
+  color: #CF6B0D;
+}
+
+/* now e */
+.nowe-devices img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+}
+
+.nowe-devices .row-buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0 50px 0;
+}
+
+.nowe-devices .row-buttons a {
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 0 40px;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+.needhelp {
+  padding: 60px 0;
+}
+
+.greybackgroud {
+  background-color: #f7f7f7;
+}
+
+.needhelp .livechat-btn {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.needhelp p{font-family: Barlow;}
+
+.needhelp .livechat-btn a {
+  width: 105px;
+  height: 105px;
+  border: 1.5px solid #0B0B0B;
+  border-radius: 50%;
+  background-color: #F3F3F3;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  display: inline-block;
+  line-height: 105px;
+}
+
+.needhelp .livechat-btn a:hover {
+    background: #DADADA;
+}
+
+.needhelp .livechat-btn a img {
+  width: 45px;
+}
+
+.needhelp .livechat-btn p {
+  margin-top: 15px;
+  font-family: Barlow;
+}
+
+
+.goBack a,.goBack button{
+  display: inline-block;
+  text-align: center;
+  margin:0 auto;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.livechat-button {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+.livechat-button a{
+  display: flex;
+  margin:0 auto;
+  width: 106px;
+  height: 106px;
+  border-radius: 50%;
+  bordeR:0;
+  background-color: #FFA02E;
+  position: relative;
+  text-align: center;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  align-items: center;
+  justify-content: center;
+  flex-flow:column nowrap;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.livechat-button a:hover{
+  background-color: #F37D16!important;
+}
+.livechat-button img.dialog{
+  width:50px;
+  height: auto;
+}
+.livechat-button img.phone{
+  width:42px;
+  height: auto;
+}
+.livechat-button img.whatsapp{
+  width:50px;
+  height: auto;
+}
+.livechat-button img.cart{
+  width:50px;
+  height: auto;
+}
+.livechat-button span{
+  font-weight: 500;
+  font-size: 1.8rem;
+  margin-top: 30px;
+  line-height: 1;
+  color: #4A4A4A;
+}
+.livechat-button a:hover,.livechat-button a:hover{
+  background-color: #DADADA;
+}
+
+
+/* responsive ------------------------------------------------------- */
+@media screen and (max-width: 1199px) {
+  .enquiry-cs {
+    padding-top: 55px;
+  }
+  .cs-options .option{margin: 0 40px;}
+}
+
+@media screen and (max-width: 991px) {
+  .belowcontent.chatform p {
+    margin-bottom: 12px;
+  }
+  .cs-options .option{
+    width: 50%;
+    float: left;
+    margin:0 0 40px 0;
+  }
+  .cs-options.with3options .option{width: 33.33%}
+
+}
+
+@media screen and (max-width: 767px) {
+  .enquiryheading {
+    padding: 40px 0 20px 0;
+  }
+
+  .enquiry-cs .topcontent p {
+    margin-bottom: 15px;
+  }
+
+  .cs-options, .belowcontent {
+    margin: 45px auto;
+  }
+
+  .belowcontent .cs-form {
+    margin: 40px auto;
+  }
+
+  .belowcontent.formsubmited {
+    margin: 120px auto;
+  }
+
+  .nowe-devices .row-buttons {
+    flex-direction: column;
+  }
+
+  .nowe-devices .row-buttons a {
+    margin: 0px 0 20px 0;
+  }
+
+  .nowe-devices .row-buttons a:last-child {
+    margin-bottom: 0;
+  }
+  .needhelp{padding: 40px 0;}
+  .needhelp .livechat-btn{margin-top: 40px;}
+
+  .cs-options{max-width: 500px;margin:40px auto 0 auto;}
+  /* help buttons */
+  .livechat-button a{width: 70px;height: 70px;margin-bottom: 20px}
+  .livechat-button span{font-size: 1.6rem;}
+  .livechat-button img.dialog{width: 34px;}
+  .livechat-button img.phone{width: 27px;}
+  .livechat-button img.whatsapp{width: 35px;}
+  .livechat-button img.cart{width: 35px;}
+}
+
+@media screen and (max-width: 575px) {
+  .needhelp .livechat-btn a {
+    width: 75px;
+    height: 75px;
+    line-height: 75px
+  }
+  .needhelp .livechat-btn a img {
+    width: 30px;
+  }
+  .needhelp .livechat-btn{margin-top: 30px;}
+
+  .cs-options.with3options .option{width: 100%}
+}
+
+@media screen and (max-width: 480px) {}
+
+@media screen and (max-width: 375px) {
+}
